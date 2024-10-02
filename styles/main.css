@@ -1,0 +1,185 @@
+body {
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+    background: #F5F5F5;
+}
+
+h1,h2,h3,p{
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background:  #ffffff;
+}
+
+section {
+    padding: 150px 125px 0px 125px
+}
+
+/*----------- ПЕРВЫЙ БЛОК (interior)------------*/ 
+.interior {
+    position: relative;
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('/Metrika/resourses/interior.png');
+}
+
+p.image-text{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    height: 81px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;    
+}
+
+h1 {
+    width: 956px;
+    height: 120px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+/*----------- О НАС ------------*/ 
+
+h2{
+    font-size: 18px;
+    line-height: 24.6px;
+}
+
+p.about{
+    margin-top: 30px;
+    width: 1048px;
+    height: 366px;
+    font-size: 45px;
+    line-height: 61.5px;
+}
+
+/*----------- КНОПКА  "ПОСМОТРЕТЬ УСЛУГИ" ------------*/ 
+.services_btn {
+    margin-top: 30px;
+    display: block;
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: #AD1818;
+    border: 1px solid #AD1818;
+
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 67px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.services_btn:hover {
+    background-color: white;
+    border: 1px solid #AD1818;
+    color: #AD1818;  
+}
+
+/* ПЕРВЫЙ ЧЕКПОИНТ *//* ПЕРВЫЙ ЧЕКПОИНТ *//* ПЕРВЫЙ ЧЕКПОИНТ */
+/* ПЕРВЫЙ ЧЕКПОИНТ *//* ПЕРВЫЙ ЧЕКПОИНТ *//* ПЕРВЫЙ ЧЕКПОИНТ */
+/* ПЕРВЫЙ ЧЕКПОИНТ *//* ПЕРВЫЙ ЧЕКПОИНТ *//* ПЕРВЫЙ ЧЕКПОИНТ */
+
+/*----------- ПРОЕКТЫ ------------*/ 
+.projects {
+    margin-top: 30px;
+}
+
+.projects .project {
+    margin-top: 90px
+}
+
+.projects :first-child {
+    margin-top: 0;
+}
+
+h3.project__title {
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.project__link {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #AD1818;
+    text-decoration: none;
+}
+
+/*----------- КНОПКА "СМОТРЕТЬ ВСЕ ПРОЕКТЫ------------*/
+
+.projects__btn {
+    display: block;
+    margin-top: 90px;
+    width: 1150px;
+    height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    line-height: 153px;
+    text-decoration: none;
+    color: #AD1818;
+}
+
+.projects__btn:hover {
+    background-color: #AD1818;
+    color: white;
+}
+/*----------- УСЛУГИ------------*/ /*----------- УСЛУГИ------------*/
+/*----------- ЧЕРНЫЙ ФОН УСЛУГ------------*/ 
+.section__black {
+    background-color: black;
+}
+
+.section__long {
+    padding-bottom: 150px;
+}
+
+.section__black h2 {
+    color: #fff;
+}
+
+/*----------- УСЛУГИ------------*/
+
+.services {
+    margin-top: 34px;
+}
+
+.services .service {
+    margin-top: 60px;
+}
+
+.services :first-child {
+    margin-top: 0;
+}
+
+/*----------- БЛОК ДЛЯ ТЕКСТА УСЛУГ------------*/
+h3.service__title {
+    margin-top: 15px;
+
+    font-size: 30px;
+    color: #fff;
+}
+
+/* ВТОРОЙ ЧЕКПОИНТ *//* ВТОРОЙ ЧЕКПОИНТ *//* ВТОРОЙ ЧЕКПОИНТ */
+/* ВТОРОЙ ЧЕКПОИНТ *//* ВТОРОЙ ЧЕКПОИНТ *//* ВТОРОЙ ЧЕКПОИНТ */
+/* ВТОРОЙ ЧЕКПОИНТ *//* ВТОРОЙ ЧЕКПОИНТ *//* ВТОРОЙ ЧЕКПОИНТ */
+
+
